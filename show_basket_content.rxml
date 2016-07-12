@@ -1,0 +1,7 @@
+class Show_basket_conent
+	def call
+		basket[:products].each do |product| 
+			puts "#{product.name} -- #{product.price}"
+	end
+
+end
