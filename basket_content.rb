@@ -1,3 +1,5 @@
+require_relative "./basket_content.rb"
+
 module Shop
 
   class Product
