@@ -1,3 +1,5 @@
+require_relative "./basket_content.rb"
+
 module Shop
   class Basket
     attr_reader :products
