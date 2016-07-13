@@ -1,6 +1,7 @@
 require_relative "./basket_content.rb"
 
 module Shop
+  
   class Basket
     attr_reader :products
 
@@ -11,7 +12,5 @@ module Shop
       def add(product)
   	    @products << product 
       end
-
   end
-
 end
