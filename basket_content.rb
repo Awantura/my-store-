@@ -12,16 +12,16 @@ module Shop
 		@name = name
 		@price = price
 	end
-  end 
-  
-  def generate_and_print
-    products << Product.new({id: 1, name: "Ball", price: 12.00})
-    products << Product.new({id: 2, name: "Dress", price: 375.00})
-    products << Product.new({id: 3, name: "Pancake powder", price: 23.70})
+	
+  	def generate_and_print
+    		products << Product.new({id: 1, name: "Ball", price: 12.00})
+    		products << Product.new({id: 2, name: "Dress", price: 375.00})
+    		products << Product.new({id: 3, name: "Pancake powder", price: 23.70})
     
-    products.each do 
-    	puts "#{@name} - Price:#{@price}"
-  end
+		products.each do 
+    	        	puts "#{@name} - Price:#{@price}"
+  	end
+  end 
 end
 
  private
