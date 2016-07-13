@@ -1,0 +1,15 @@
+module Shop
+  class Basket
+    attr_reader :products
+
+  	  def initialize
+  	   @products = []
+      end
+
+      def add(product)
+  	    @products << product 
+      end
+
+  end
+
+end
