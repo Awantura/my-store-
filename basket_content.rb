@@ -21,11 +21,11 @@ module Shop
 		products.each do 
     	        	puts "#{@name} - Price:#{@price}"
   	end
+  	private
+  	def next_id
+ 		@@id += 1
+	end
   end 
 end
 
- private
 
- def next_id
- 	@@id += 1
- end
